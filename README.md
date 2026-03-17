@@ -14,7 +14,7 @@ This repository covers:
 
 ## Files
 
-- [multi_asset_strategy_assignment.ipynb] : main notebook with analysis, charts, and backtest
+- [multi_asset_strategy_crypto.ipynb] : main notebook with analysis, charts, and backtest
 - [BTCUSDT_2020_2025.csv]
 - [ETHUSDT_2020_2025.csv]
 - [OANDA_XAUUSD_2020_2025.csv]
