@@ -54,13 +54,11 @@ Market regimes are then classified into:
 - `Defensive Risk-Off`
 - `Liquidity Stress`
 
-The regime thresholds are **data-driven**, using sample quantiles instead of arbitrary fixed cutoffs.
+The regime thresholds are driven using sample quantiles instead of arbitrary fixed cutoffs.
 
 ### 2. Position Sizing
 
 Portfolio weights are also **data-driven**.
-
-Instead of hardcoding fixed asset weights, the notebook:
 
 - computes momentum-style signals for BTC, ETH, Gold, and SP500
 - adjusts those signals using inverse volatility
@@ -71,12 +69,12 @@ Instead of hardcoding fixed asset weights, the notebook:
 
 ### 3. Strategy Variants
 
-The notebook compares two versions of the strategy:
+The project compares two versions of the strategy:
 
 - `Balanced`: stronger participation and higher return
 - `High Sharpe`: more defensive, lower volatility, cleaner risk-adjusted profile
 
-## Highlighted Results
+## Results
 
 ### Balanced
 
@@ -96,7 +94,7 @@ The notebook compares two versions of the strategy:
 
 ## Stress Scenario Section
 
-The notebook also includes a stress-response section for a systemic selloff scenario involving:
+The project also includes a stress-response section for a systemic selloff scenario involving:
 
 - BTC down `18%`
 - ETH down about `28%`
@@ -125,7 +123,7 @@ Someone reading only the notebook or this README should still be able to underst
 
 Open the notebook directly:
 
-- [multi_asset_strategy_assignment.ipynb]
+- [multi_asset_strategy_crypto.ipynb]
 
 
 ## Summary
